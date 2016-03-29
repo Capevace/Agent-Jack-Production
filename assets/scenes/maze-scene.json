@@ -1,0 +1,472 @@
+{
+	"demoentity": {
+		"id": "demo",
+		"spritesheet": "scenery",
+		"sprite": "gate/gate-fence-left",
+		"position": {"x": 0, "y": 0},
+		"anchor": {"x": 0, "y": 0},
+		"immovable": true,
+		"sizePlayerUnderSprite": {
+			"width": 0,
+			"height": 0,
+			"offsetX": 0,
+			"offsetY": 0
+		},
+		"sizePlayerOverSprite": {
+			"width": 0,
+			"height": 0,
+			"offsetX": 0,
+			"offsetY": 0
+		},
+		"forcedZ": 0,
+		"shouldDebug": true
+	},
+	"demotrigger": {
+
+	},
+	"enemies": [
+		{
+			"x": 500,
+			"y": 500,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 0
+		},
+		{
+			"x": 550,
+			"y": 400,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 0
+		},
+		{
+			"x": 700,
+			"y": 450,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 0
+		},
+		{
+			"x": 400,
+			"y": 400,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 0
+		},
+		{
+			"x": 300,
+			"y": 750,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 1
+		},
+		{
+			"x": 400,
+			"y": 750,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 1
+		},
+		{
+			"x": 300,
+			"y": 900,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 1
+		},
+		{
+			"x": 400,
+			"y": 900,
+			"spriteName": "enemy",
+			"hitSpeed": 10,
+			"fullSpeed": 3,
+			"maxHealth": 10,
+			"attackStrenght": 0,
+			"sector": 1
+		}
+	],
+	"entities": [
+		{
+			"id": "fenceL",
+			"spritesheet": "scenery",
+			"sprite": "gate/gate-fence-left",
+			"position": {"x": -132, "y": 836},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 75,
+				"height": 17,
+				"offsetX": 0,
+				"offsetY": 200
+			},
+			"sizePlayerOverSprite": {
+				"width": 75,
+				"height": 7,
+				"offsetX": 0,
+				"offsetY": 305
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "fenceR",
+			"spritesheet": "scenery",
+			"sprite": "gate/gate-fence-right",
+			"position": {"x": 412, "y": 836},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 75,
+				"height": 17,
+				"offsetX": 0,
+				"offsetY": 200
+			},
+			"sizePlayerOverSprite": {
+				"width": 75,
+				"height": 7,
+				"offsetX": 0,
+				"offsetY": 305
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "bush-collider-1",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 306, "y": 1198},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 87,
+				"height": 10,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 87,
+				"height": 10,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "garage-collider",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 624, "y": 1115},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 21,
+				"height": 63,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 21,
+				"height": 63,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "car-collider",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 443, "y": 957},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 45,
+				"height": 24,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 45,
+				"height": 24,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "forest-left-top",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 1201},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 63.5,
+				"height": 75,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 63.5,
+				"height": 75,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "forest-left-bottom",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -110, "y": 900},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 71,
+				"height": 74,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 71,
+				"height": 74,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "forest-right",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 400, "y": 864},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 74,
+				"height": 70,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 74,
+				"height": 70,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "debug-second-door-right",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 263, "y": 1268},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 105.75,
+				"height": 11.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 105.75,
+				"height": 11.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "debug-second-door-left",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 1273},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 75,
+				"height": 12.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 75,
+				"height": 12.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "bush_0001",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 436, "y": 1757},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 25,
+				"height": 62.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 25,
+				"height": 62.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "house",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 1786},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 137,
+				"height": 72.75,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 137,
+				"height": 72.75,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "pool",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 2259},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 157.25,
+				"height": 71,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 157.25,
+				"height": 71,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "seats",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 2464},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 65.75,
+				"height": 50.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 65.75,
+				"height": 50.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "water_left",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": -113, "y": 2717},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 74.75,
+				"height": 51.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 74.75,
+				"height": 51.25,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		},
+		{
+			"id": "water_right",
+			"spritesheet": "",
+			"sprite": "",
+			"position": {"x": 365, "y": 2720},
+			"anchor": {"x": 0, "y": 0},
+			"deltaLowY": 320,
+			"immovable": true,
+			"sizePlayerUnderSprite": {
+				"width": 80.25,
+				"height": 52.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"sizePlayerOverSprite": {
+				"width": 80.25,
+				"height": 52.5,
+				"offsetX": 0,
+				"offsetY": 0
+			},
+			"shouldDebug": false
+		}
+	],
+	"triggers": {
+
+	},
+	"worldSize": {
+		"x": 800,
+		"y": 3248
+	},
+	"debugAll": true,
+	"debugLowerY": true
+}
